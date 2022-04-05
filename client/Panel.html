@@ -1,0 +1,56 @@
+<html lang="en">
+<head>
+    <script src="./js/panel.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/panel/panel.css">
+    <title>Document</title>
+    <style>
+    
+        body{
+        display: none;
+            background-color: rgb(169, 169, 174);
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+    <nav>
+        <ul>
+            <li><a href="./index.html">Anasayfa</a></li>
+            <li>Post</li>
+            <li>Update</li>
+            <li id="deleteButton">Delete</li>
+            <li>Background</li>
+            <li id="logOut">Çıkış Yap</li>
+        </ul>
+    </nav>
+    <main>
+        <section id="post">
+            <h1>Yeni Yazı</h1>
+            <input type="text" id="title" placeholder="Başlık" maxlength="50">
+            <textarea name="" id="content" cols="30" rows="10" maxlength="500"></textarea>
+            <input type="text" id="tag" placeholder="Etiketler" maxlength="70">
+            <button type="submit" id="postButton">Gönder</button>
+        </section>
+        <section id="update">
+
+        </section>
+        <section id="delete">
+            <h1>Delete Item List</h1>
+            <ul id="deleteList">
+
+            </ul>
+        </section>
+        <section id="background">
+            <button>Default Background</button>
+            <button>#646BFA</button>
+            <button>#FA3CBB</button>
+            <button>#F05137</button>
+        </section>
+    </main>
+</div>
+</body>
+</html>

@@ -1,0 +1,23 @@
+main{
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+    border: 1px solid black;
+    min-height: 600px;
+    margin-top: 1em;
+    border-radius: 5px;
+    section{
+        width: 100%;
+        height: auto;
+        article{
+            width: auto;
+            height: auto;
+            font-family: cursive;
+            font-size: x-large;
+            padding: 10px;
+            word-break: break-all;
+            color: rgb(37, 37, 37);
+            line-height: 1.4em;
+        }
+    }
+}

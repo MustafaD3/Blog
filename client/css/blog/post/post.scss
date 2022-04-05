@@ -1,0 +1,42 @@
+header{
+    nav{
+        ul{
+            position: relative;
+            li:nth-child(3){
+                align-self: flex-end;
+                position: absolute;
+                right: 0;
+                font-weight: bold;
+                font-family: audiowide;
+                cursor: pointer;
+                &:hover{
+                    color: white;
+                }
+            }
+            
+        }
+    }
+}
+
+main{
+    width: 70%;
+    height: auto;
+    margin: 20 auto;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    h1{
+        font-weight: bold;
+        font-family: cursive;
+        text-align: center;
+        margin: 10px 0px;
+    }
+    article{
+        font-weight: bold;
+        font-family: 'Courier New', Courier, monospace;
+        line-height: 1.5em;
+        color: rgb(55, 53, 53);
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+    }
+}
